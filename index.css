@@ -623,7 +623,7 @@ ul, ol {
     }
 
     .article-head h2 {
-        width: 560px;
+        width: 320px;
         letter-spacing: 0;
     }
 
@@ -654,6 +654,8 @@ ul, ol {
         margin-right: auto;
         max-height: 460px;
         max-width: 460px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .fifth_s {
@@ -879,6 +881,7 @@ ul, ol {
 
     .footer {
         flex-direction: column;
+        text-align: left;
         margin-bottom: 24px;
         margin-left: 16px;
         margin-right: 118px;
