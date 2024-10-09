@@ -335,7 +335,7 @@ ul, ol {
     max-height: 615px;
 }
 
-@media (width <= 1024px) {
+@media screen and (width <= 1024px) {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -402,7 +402,7 @@ ul, ol {
 
 }
 
-@media (width <= 768px) {
+@media screen and (width <= 768px) {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -514,7 +514,7 @@ ul, ol {
     }
 }
 
-@media (width <= 684px) {
+@media screen and (width <= 684px) {
     .container_polka {
         margin: 0 auto;
         max-width: 684px;
@@ -703,7 +703,7 @@ ul, ol {
     }
 }
 
-@media (width <= 320px) {
+@media screen and (width <= 320px) {
 
     .container_polka {
         margin: 0 auto;
